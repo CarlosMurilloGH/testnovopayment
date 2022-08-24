@@ -1,0 +1,12 @@
+.dashboardContainer{
+    background-image:url('../media/bg-content.jpg');
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+.dashboardContainer img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
