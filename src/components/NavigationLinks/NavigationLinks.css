@@ -1,0 +1,16 @@
+.NavigationContainer{
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+.NavigationBox{
+    width: 80vw;
+}
+
+.card_list-link{
+    color:black;
+}
+
+li a {
+    color: black;
+}

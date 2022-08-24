@@ -1,0 +1,28 @@
+.headerContainer{
+    background-color: #1500A1;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+.headerBox{
+    width: 90vw;
+    display: flex;
+    justify-content: space-between;
+    margin-left: auto;
+    margin-right: auto;
+    color: white;
+    font-weight: bold;
+}
+
+.headerContainer img{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.usernameBox{
+    margin-top: 0.5rem;
+    display: flex;
+}
+
+.arrow{
+    margin-left: 1rem;
+}

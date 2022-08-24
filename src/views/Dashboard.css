@@ -1,0 +1,21 @@
+.dashboardContainer{
+    background-image:url('../media/bg-content.jpg');
+    margin-bottom: 2rem;
+    height: 700px;
+    background-repeat: repeat no-repeat;
+}
+
+.dashboardBox{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    height: 700px;
+}
+
+.dashboardContainer img{
+    display: block;
+    margin:auto;
+}
+

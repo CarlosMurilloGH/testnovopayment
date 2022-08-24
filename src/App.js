@@ -1,11 +1,12 @@
-import logo from './logo.svg';
 import './App.css';
+import Layout from './components/Layout/Layout';
+import Dashboard from './views/Dashboard';
 
 function App() {
   return (
-    <div className="App">
-     <h1>asdas</h1>
-    </div>
+    <Layout>
+      <Dashboard />
+    </Layout>
   );
 }
 
