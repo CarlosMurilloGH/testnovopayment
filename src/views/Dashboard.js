@@ -5,7 +5,9 @@ import Emblem from '../media/Emblem.svg';
 function Dashboard() {
   return (
     <div className='dashboardContainer'>
-      <img src={Emblem} alt="emblem" />
+      <div className='dashboardBox'>
+        <img src={Emblem} alt="emblem" />
+      </div>
     </div>
   )
 }

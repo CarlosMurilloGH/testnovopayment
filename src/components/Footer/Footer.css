@@ -1,0 +1,20 @@
+.footerContainer{
+    background-color: #1500A1;
+    padding-top: 3rem;
+    padding-bottom: 2rem;
+    border-top: 2px solid #00DCC9;
+}
+
+.footerBox{
+    width: 80vw;
+    display: flex;
+    justify-content: space-around;
+    color:white;
+    margin-left:auto;
+    margin-right: auto;
+}
+
+.footerBox p{
+    margin-top: 1rem;
+}
+
