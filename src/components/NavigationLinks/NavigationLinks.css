@@ -6,3 +6,11 @@
 .NavigationBox{
     width: 80vw;
 }
+
+.card_list-link{
+    color:black;
+}
+
+li a {
+    color: black;
+}

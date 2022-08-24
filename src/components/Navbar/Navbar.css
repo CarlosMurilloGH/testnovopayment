@@ -1,0 +1,81 @@
+.menu{
+    padding: 0px 72px;
+    letter-spacing: 1px;
+}
+.menu ul li a:hover, .menu .submenu:hover{
+    border-bottom: 4px solid#1500A1;
+}
+.menu ul li, .submenu{
+    margin: 0px 1rem;
+}
+.menu ul li a{
+    text-decoration: none;
+}
+.menu ul li, .menu .submenu{
+    font-size: 18px;
+    border-bottom: 4px solid transparent;
+    transition: all .2s ease;
+}
+.menu ul li a, .menu ul li, .menu .submenu{
+    padding: 1rem 0px 1rem 0px;
+}
+.menu li{
+    display: inline-block;
+}
+.submenu{
+    display: inline-block;
+    position: relative;
+    background-color: white;
+}
+.submenu .content.active, .submenu .submenu .content.active{
+    opacity: 1;
+    z-index: 1;
+}
+.submenu .content{
+    position: absolute;
+    top: 3.5rem;
+    opacity: 0;
+    transition: opacity .3s ease;
+    z-index: -1;
+    background-color: white;
+}
+.menu ul, .submenu .content ul{
+    padding: 0px 0px;
+    margin: 0px;
+    list-style: none;
+}
+.submenu .content ul li, .submenu .submenu{
+    display: block;
+    padding: 12px 24px;
+    margin: 0px;
+    border: 1px solid gray;
+}
+.submenu .content ul li a{
+    border-bottom: none;
+}
+
+.submenu .submenu, .submenu .submenu ul li{
+    box-sizing: border-box;
+    width: 250px;
+}
+
+.submenu .submenu:hover{
+    border: 1px solid gray;
+}
+
+.submenu .submenu:hover{
+    border: 1px solid gray;
+}
+
+.submenu .submenu .content{
+    right: -252px;
+    top: -1px;
+    border-top-right-radius: 2%;
+    border-bottom-right-radius: 2%;
+    z-index: -1;
+}
+
+.submenu .submenu ul li:first-of-type{
+    border-left: 4px solid#1500A1;
+}
+
